@@ -29,7 +29,7 @@ $chevron = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" clas
     </head>
     <body class="relative bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-white">
         <!-- header -->
-        <header class="sticky top-0 z-50 w-full bg-white/80 py-3 shadow-2xs dark:shadow-white/50 backdrop-blur-md dark:bg-slate-950/50">
+        <header class="sticky top-0 z-50 w-full bg-white/80 py-3 shadow-2xs dark:shadow-white/5 backdrop-blur-md dark:bg-slate-950/50">
             <nav class="relative mx-auto flex w-full max-w-7xl px-6 lg:px-8">
                 <a href="./" aria-label="PHP" class="mr-6">
                     <svg viewBox="0 -1 100 50" fill="currentColor" aria-hidden="true" class="inline-block h-10 text-brand-500 dark:text-white">
