@@ -23,7 +23,7 @@ const TOKEN_CLASSES = {
     constant: 'text-[#0550ae] dark:text-[#79c0ff]',
     punctuation: 'text-[#24292f] dark:text-[#c9d1d9]',
 };
-const LINE_CLASSES = 'relative block min-h-lh pl-7 [counter-increment:line] before:absolute before:left-0 before:w-4 before:text-right before:text-zinc-400 before:content-[counter(line)] dark:before:text-slate-600';
+const LINE_CLASSES = 'relative block min-h-lh pl-7 [counter-increment:line] before:absolute before:left-0 before:w-4 before:text-right before:text-slate-400 before:content-[counter(line)] dark:before:text-slate-600';
 
 const KEYWORDS = new Set(['abstract', 'and', 'array', 'as', 'break', 'callable', 'case', 'catch', 'class', 'clone', 'const', 'continue', 'declare', 'default', 'die', 'do', 'echo', 'else', 'elseif', 'empty', 'enddeclare', 'endfor', 'endforeach', 'endif', 'endswitch', 'endwhile', 'eval', 'exit', 'extends', 'final', 'finally', 'fn', 'for', 'foreach', 'function', 'global', 'goto', 'if', 'implements', 'include', 'include_once', 'instanceof', 'insteadof', 'interface', 'isset', 'list', 'namespace', 'new', 'or', 'print', 'private', 'protected', 'public', 'readonly', 'require', 'require_once', 'return', 'static', 'switch', 'throw', 'trait', 'try', 'unset', 'use', 'var', 'while', 'xor', 'yield']);
 const LITERALS = new Set(['false', 'true', 'null']);
