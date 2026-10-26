@@ -4,6 +4,8 @@ A year ago I won the PHP Foundation's design contest for the PHP 8.5 release pag
 
 This year I went further: a complete restyle of the php.net homepage, following the visual line of the 8.5 design. The code is here for the Foundation to use if they want to implement it.
 
+**Preview:** [nunoguerra.com/dev/php](https://nunoguerra.com/dev/php/)
+
 ## What's inside
 
 - `index.php`: the homepage, built around PHP 8.6 with a "Road to PHP 9" section
