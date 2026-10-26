@@ -175,10 +175,10 @@ require __DIR__ . '/includes/header.php';
 
                 <div class="flex flex-col items-center justify-center gap-4 lg:flex-row">
                     <a href="https://www.php.net/downloads.php" class="inline-flex min-h-10 w-full items-center justify-center rounded-full bg-brand-500 px-5 text-sm font-semibold text-white hover:bg-brand-500/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-800 sm:w-auto">Download PHP 8.6</a>
-                    <a href="#features" class="inline-flex min-h-10 w-full items-center justify-center rounded-full bg-white px-5 text-sm font-semibold text-slate-900 shadow-xs ring-1 ring-slate-200/50 hover:bg-slate-100/95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-800 sm:w-auto dark:ring-0">What's new in 8.6</a>
+                    <a href="#features" class="inline-flex min-h-10 w-full items-center justify-center rounded-full bg-white px-5 text-sm font-semibold text-slate-900 shadow-xs ring-1 ring-slate-200/50 hover:bg-slate-50/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-800 sm:w-auto dark:ring-0">What's new in 8.6</a>
                 </div>
 
-                <a href="#road-to-php-9" class="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-500 underline-offset-2 hover:underline dark:text-brand-400">What's changing in PHP 9 <span aria-hidden="true">→</span></a>
+                <a href="#road-to-php-9" class="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-500 underline-offset-2 hover:underline dark:text-white">What's changing in PHP 9 <span aria-hidden="true">→</span></a>
             </div>
         </section>
 
@@ -195,7 +195,7 @@ require __DIR__ . '/includes/header.php';
             <p class="mt-10 text-center text-xs text-slate-500 dark:text-slate-500">Sources: <a href="https://w3techs.com/technologies/details/pl-php" class="underline underline-offset-2 hover:no-underline">W3Techs</a> and <a href="https://packagist.org/statistics" class="underline underline-offset-2 hover:no-underline">Packagist</a>, October 2026.</p>
 
             <div class="mt-13 border-t border-slate-900/10 pt-12 dark:border-slate-800">
-                <h2 class="text-center text-sm/6 font-semibold text-balance text-slate-500 dark:text-slate-400">Behind the sites and apps millions of people use every day</h2>
+                <h2 class="text-center font-semibold text-balance text-slate-700 dark:text-slate-200">Behind the sites and apps millions of people use every day</h2>
                 <ul role="list" class="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-slate-500 lg:gap-x-14 dark:text-slate-400">
                     <?php foreach ($poweredBy as $slug => $name): ?>
                         <li class="flex items-center gap-2 text-base font-semibold">
