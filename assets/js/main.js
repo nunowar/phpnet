@@ -104,7 +104,7 @@ const savedTheme = () => localStorage.theme || 'system';
 function createVideo(isDark) {
     const video = document.createElement('video');
     video.className = 'pointer-events-none absolute top-0 -z-10 size-full mask-b-from-60% object-cover opacity-0 transition-opacity duration-500 ease-in-out select-none';
-    Object.assign(video, { src: isDark ? 'bg-dark.mp4' : 'bg-light.mp4', autoplay: true, muted: true, loop: true, playsInline: true, disablePictureInPicture: true });
+    Object.assign(video, { src: isDark ? 'assets/video/bg-dark.mp4' : 'assets/video/bg-light.mp4', autoplay: true, muted: true, loop: true, playsInline: true, disablePictureInPicture: true });
     video.oncanplay = () => video.classList.replace('opacity-0', isDark ? 'opacity-35' : 'opacity-25');
     return video;
 }

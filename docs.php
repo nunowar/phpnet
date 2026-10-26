@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/partials.php';
+require __DIR__ . '/includes/helpers.php';
 
 $sidebar = [
     'Basic syntax' => ['PHP tags', 'Escaping from HTML', 'Instruction separation', 'Comments'],
@@ -28,7 +28,8 @@ $example = <<<'PHP'
     // the script ends here with no PHP closing tag
     PHP;
 
-site_header(active: 'Documentation');
+$active = 'Documentation';
+require __DIR__ . '/includes/header.php';
 ?>
         <div class="dark:bg-slate-900/30">
             <div class="relative z-10 mx-auto grid max-w-7xl grid-cols-12 gap-4 px-6 pt-10 lg:gap-6 lg:px-0 xl:gap-x-10">
@@ -98,4 +99,4 @@ site_header(active: 'Documentation');
                 </div>
             </div>
         </div>
-<?php site_footer(); ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

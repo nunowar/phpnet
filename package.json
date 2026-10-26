@@ -1,8 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "tailwindcss -i ./src/app.css -o ./style.css --watch",
-        "build": "tailwindcss -i ./src/app.css -o ./style.css --minify"
+        "dev": "tailwindcss -i ./assets/css/app.css -o ./assets/css/style.css --watch",
+        "build": "tailwindcss -i ./assets/css/app.css -o ./assets/css/style.css --minify"
     },
     "devDependencies": {
         "@tailwindcss/cli": "^4.3.3",

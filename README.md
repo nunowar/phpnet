@@ -8,15 +8,14 @@ This year I went further: a complete restyle of the php.net homepage, following 
 
 - `index.php`: the homepage, built around PHP 8.6 with a "Road to PHP 9" section
 - `docs.php`: a documentation page in the same style
-- `partials.php`: the shared header, footer and code block
-- `icons.php`: brand marks from [Simple Icons](https://simpleicons.org)
-- `src/app.css` → `style.css`: Tailwind CSS 4 with native utilities, compiled
+- `includes/`: `header.php` and `footer.php` shared by both pages, `helpers.php` (asset versioning and the code block) and `icons.php` with brand marks from [Simple Icons](https://simpleicons.org)
+- `assets/`: stylesheet source and build (`css/app.css` → `css/style.css`), JavaScript, background videos and favicons
 
 Every figure on the page (usage share, package counts, companies, Foundation numbers) was checked against a primary source in October 2026. Each one carries a dated comment in `index.php` next to the data it feeds, so it is easy to see what needs refreshing.
 
 ## Running it
 
-The compiled `style.css` is committed, so any PHP server works:
+The compiled `assets/css/style.css` is committed, so any PHP server works:
 
 ```sh
 php -S localhost:8000

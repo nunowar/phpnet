@@ -1,8 +1,8 @@
 <?php
 
-require __DIR__ . '/partials.php';
+require __DIR__ . '/includes/helpers.php';
 
-$icons = require __DIR__ . '/icons.php';
+$icons = require __DIR__ . '/includes/icons.php';
 
 // W3Techs and Packagist, 24 Oct 2026
 $stats = [
@@ -157,7 +157,7 @@ $sponsors = [
     'Silver' => ['text-sm font-medium text-zinc-600 dark:text-slate-400', ['Private Packagist', 'Craft CMS', 'Zend by Perforce', 'Tideways', 'Symfony Corp', 'Mercari Inc.', 'Les-Tilleuls.coop', 'pixiv Inc.', 'Aternos GmbH', 'Sentry', 'Team Cybozu', 'Manychat', 'Passbolt', 'CH Studio', 'TYPO3']],
 ];
 
-site_header();
+require __DIR__ . '/includes/header.php';
 ?>
         <!-- hero -->
         <section class="js-hero relative isolate z-10 -mt-4 flex h-160 items-center justify-center overflow-hidden lg:-mt-16 lg:pt-16">
@@ -454,4 +454,4 @@ site_header();
                 <p class="mx-auto max-w-2xl leading-relaxed text-zinc-900/80 dark:text-slate-300">The <a href="https://www.php.net/manual/en/migration86.php" class="underline underline-offset-2 hover:no-underline">migration guide</a> is available in the PHP Manual. Please consult it for a detailed list of new features and backward-incompatible changes.</p>
             </div>
         </section>
-<?php site_footer(); ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

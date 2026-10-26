@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source("../..");
 
 /* Theme is toggled with a `.dark` class on <html> (see the inline script in partials.php). */
 @custom-variant dark (&:where(.dark, .dark *));
