@@ -1,6 +1,6 @@
 # A new homepage for php.net
 
-A year ago I won the PHP Foundation's design contest for the [PHP 8.5 release page](https://www.php.net/releases/8.5/en.php). The Foundation shipped that design on the release page itself, but php.net kept its existing look.
+A year ago I won the PHP Foundation's design contest for the PHP 8.5 release page; the results are in the Foundation's post [Design Contest Results and Lessons Learned](https://thephp.foundation/blog/2025/11/05/design-contest-results/) (5 November 2025). The Foundation shipped that design on the [release page](https://www.php.net/releases/8.5/en.php) itself, but php.net kept its existing look, and the post noted that a wider homepage redesign might take a different approach.
 
 This year I went further: a complete restyle of the php.net homepage, following the visual line of the 8.5 design. The code is here for the Foundation to use if they want to implement it.
 
