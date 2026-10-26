@@ -73,10 +73,8 @@ $columns = [
                     </div>
                 </div>
 
-                <div class="flex flex-col items-center gap-2 border-t border-slate-900/10 pt-8 text-center text-sm/6 text-slate-600 sm:mt-20 sm:flex-row sm:justify-center sm:gap-3 lg:mt-24 dark:border-slate-800 dark:text-slate-400">
-                    <p>© 2001–<?= date('Y') ?> The PHP Group. All rights reserved.</p>
-                    <span aria-hidden="true" class="hidden sm:inline">·</span>
-                    <p>Designed by <a href="https://nunoguerra.com" target="_blank" rel="noopener" class="font-medium text-slate-900 underline-offset-2 hover:underline dark:text-white">Nuno Guerra</a></p>
+                <div class="flex flex-col items-center border-t border-slate-900/10 pt-8 text-center text-sm/6 text-slate-600 sm:mt-20 sm:flex-row sm:justify-center lg:mt-24 dark:border-slate-800 dark:text-slate-400">
+                    <p>© 2001–<?= date('Y') ?> The PHP Group. All rights reserved. Designed by <a href="https://nunoguerra.com" target="_blank" rel="noopener" class="font-medium text-slate-900 underline-offset-2 hover:underline dark:text-white">Nuno Guerra</a>.</p>
                 </div>
             </div>
         </footer>
