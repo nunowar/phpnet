@@ -7,7 +7,7 @@ $active ??= '';
 $nav = ['Downloads' => '#', 'Documentation' => 'docs.php', 'Get Involved' => '#', 'Help' => '#'];
 
 // Shared by the header's selects, search button and theme toggle.
-$control = 'rounded-xl bg-white/80 outline-1 -outline-offset-1 outline-slate-300 focus:ring-2 focus:ring-slate-950/5 lg:hover:ring-2 lg:hover:ring-slate-950/5 dark:bg-slate-800 dark:text-white dark:outline-slate-800 dark:focus:ring-slate-800/60 lg:dark:hover:ring-slate-800/60';
+$control = 'rounded-xl bg-white/80 outline-1 -outline-offset-1 outline-slate-300 focus:ring-2 focus:ring-slate-950/5 lg:hover:ring-2 lg:hover:ring-slate-950/5 dark:bg-slate-900 dark:text-white dark:outline-slate-800 dark:focus:ring-slate-800/60 lg:dark:hover:ring-slate-800/60';
 $select = "$control col-start-1 row-start-1 h-9 w-full appearance-none pr-6 pl-3 text-base text-slate-900 sm:text-sm/6 dark:*:bg-slate-800";
 $chevron = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-slate-500 sm:size-4 dark:text-slate-400"><path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" /></svg>';
 ?>
@@ -27,7 +27,7 @@ $chevron = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" clas
             document.documentElement.classList.toggle('dark', localStorage.theme === 'dark' || (localStorage.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches));
         </script>
     </head>
-    <body class="relative bg-white text-slate-800 antialiased dark:bg-slate-900 dark:text-white">
+    <body class="relative bg-white text-slate-800 antialiased dark:bg-slate-950 dark:text-white">
         <!-- header -->
         <header class="sticky top-0 z-50 w-full bg-white/80 py-3 shadow-2xs backdrop-blur-md dark:bg-slate-950/50">
             <nav class="relative mx-auto flex w-full max-w-7xl px-6 lg:px-8">

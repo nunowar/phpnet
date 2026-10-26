@@ -31,7 +31,7 @@ $example = <<<'PHP'
 $active = 'Documentation';
 require __DIR__ . '/includes/header.php';
 ?>
-        <div class="dark:bg-slate-800/30">
+        <div class="dark:bg-slate-900/30">
             <div class="relative z-10 mx-auto grid max-w-7xl grid-cols-12 gap-4 px-6 pt-10 lg:gap-6 lg:px-0 xl:gap-x-10">
                 <!-- left sidebar -->
                 <div class="col-span-3 border-r border-slate-950/10 lg:pb-6 dark:border-slate-800">

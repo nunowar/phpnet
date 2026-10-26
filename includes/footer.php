@@ -13,7 +13,7 @@ $columns = [
     ],
 ];
 ?>
-        <footer class="relative isolate z-10 border-t border-slate-900/10 bg-slate-50 pb-8 dark:border-slate-800 dark:bg-slate-800/30">
+        <footer class="relative isolate z-10 border-t border-slate-900/10 bg-slate-50 pb-8 dark:border-slate-800 dark:bg-slate-900/30">
             <div class="mx-auto max-w-7xl px-4 pt-16 pb-8 sm:pt-24 lg:px-8 lg:pt-28">
                 <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div class="space-y-8">
