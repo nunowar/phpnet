@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Theme is toggled with a `.dark` class on <html> (see the inline script in partials.php). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-brand-300: #a7a3ff;
+    --color-brand-400: #7b75ff;
+    --color-brand-500: #6b58ff;
+    --color-brand-900: #2a2170;
+    --color-brand-950: #15113a;
+}
