@@ -162,7 +162,7 @@ require __DIR__ . '/includes/header.php';
         <!-- hero -->
         <section class="js-hero relative isolate z-10 -mt-4 flex h-160 items-center justify-center overflow-hidden lg:-mt-16 lg:pt-16">
             <!-- the closing call to action's diamond grid, mirrored: strongest at the top centre, fading downward -->
-            <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-top text-zinc-900/10 dark:text-slate-800">
+            <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-top text-zinc-900/10 dark:text-white/15">
                 <defs>
                     <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="scale(1 .6) rotate(45)"><path d="M40 0H0v40" fill="none" stroke="currentColor"></path></pattern>
                 </defs>
