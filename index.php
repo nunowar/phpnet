@@ -160,7 +160,7 @@ $sponsors = [
 require __DIR__ . '/includes/header.php';
 ?>
         <!-- hero -->
-        <section class="js-hero relative isolate z-10 -mt-4 flex h-160 items-center justify-center overflow-hidden lg:-mt-16 lg:pt-16">
+        <section class="js-video-bg relative isolate z-10 -mt-4 flex h-160 items-center justify-center overflow-hidden lg:-mt-16 lg:pt-16">
             <!-- the closing call to action's diamond grid, mirrored: strongest at the top centre, fading downward -->
             <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-top text-slate-900/10 dark:text-white/15">
                 <defs>
@@ -432,7 +432,7 @@ require __DIR__ . '/includes/header.php';
         </section>
 
         <!-- call to action -->
-        <section class="relative isolate z-10 overflow-hidden py-20 lg:py-28">
+        <section data-video-fade="top" class="js-video-bg relative isolate z-10 overflow-hidden py-20 lg:py-28">
             <!-- the same diamond grid as the Road to PHP 9 panel, fading out from the bottom centre (the laravel.com "What will you ship?" pattern) -->
             <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-bottom text-slate-900/10 dark:text-white/15">
                 <defs>

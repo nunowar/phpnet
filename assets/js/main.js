@@ -96,14 +96,15 @@ document.addEventListener('click', async (e) => {
 
 // Theme: light → dark → system. Runs last so storage errors can't break the code above.
 const themeButton = document.querySelector('.js-theme-toggle');
-const hero = document.querySelector('.js-hero');
+const videoSections = document.querySelectorAll('.js-video-bg');
 const darkQuery = matchMedia('(prefers-color-scheme: dark)');
 const nextTheme = { light: 'dark', dark: 'system', system: 'light' };
 const savedTheme = () => localStorage.theme || 'system';
 
-function createVideo(isDark) {
+// The video fades out towards the bottom, or towards the top with data-video-fade="top".
+function createVideo(isDark, fade) {
     const video = document.createElement('video');
-    video.className = 'pointer-events-none absolute top-0 -z-10 size-full mask-b-from-60% object-cover opacity-0 transition-opacity duration-500 ease-in-out select-none';
+    video.className = `pointer-events-none absolute top-0 -z-10 size-full ${fade === 'top' ? 'mask-t-from-60%' : 'mask-b-from-60%'} object-cover opacity-0 transition-opacity duration-500 ease-in-out select-none`;
     Object.assign(video, { src: isDark ? 'assets/video/bg-dark.mp4' : 'assets/video/bg-light.mp4', autoplay: true, muted: true, loop: true, playsInline: true, disablePictureInPicture: true });
     video.oncanplay = () => video.classList.replace('opacity-0', isDark ? 'opacity-35' : 'opacity-25');
     return video;
@@ -119,10 +120,10 @@ function applyTheme(theme) {
         themeButton.setAttribute('aria-label', `Switch to ${nextTheme[theme]} theme`);
     }
 
-    if (hero) {
-        hero.querySelector('video')?.remove();
-        hero.prepend(createVideo(isDark));
-    }
+    videoSections.forEach((section) => {
+        section.querySelector('video')?.remove();
+        section.prepend(createVideo(isDark, section.dataset.videoFade));
+    });
 }
 
 themeButton?.addEventListener('click', () => {
