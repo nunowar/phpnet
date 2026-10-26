@@ -27,7 +27,7 @@ $chevron = '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" clas
             document.documentElement.classList.toggle('dark', localStorage.theme === 'dark' || (localStorage.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches));
         </script>
     </head>
-    <body class="relative bg-white text-slate-800 antialiased dark:bg-slate-950 dark:text-white">
+    <body class="relative bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-white">
         <!-- header -->
         <header class="sticky top-0 z-50 w-full bg-white/80 py-3 shadow-2xs backdrop-blur-md dark:bg-slate-950/50">
             <nav class="relative mx-auto flex w-full max-w-7xl px-6 lg:px-8">

@@ -10,7 +10,7 @@ function asset(string $path): string
 function code_block(string $code, ?string $title = null, bool $lineNumbers = false): void
 {
     ?>
-<div class="js-code-block relative overflow-hidden rounded-2xl border border-slate-200 bg-white text-slate-800 dark:text-white <?= $title ? 'dark:border-black/10 dark:bg-slate-950/25' : 'mb-6 dark:border-slate-800/60 dark:bg-slate-800/60' ?>">
+<div class="js-code-block relative overflow-hidden rounded-2xl border border-slate-200 bg-white text-slate-900 dark:text-white <?= $title ? 'dark:border-black/10 dark:bg-slate-950/25' : 'mb-6 dark:border-slate-800/60 dark:bg-slate-800/60' ?>">
     <div class="flex items-center gap-2 px-3 py-2 text-sm font-semibold <?= $title ? 'justify-between border-b border-slate-200 dark:border-slate-800/60' : 'absolute top-0 right-0' ?>">
         <?php if ($title): ?>
             <span><?= $title ?></span>

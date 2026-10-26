@@ -261,7 +261,7 @@ require __DIR__ . '/includes/header.php';
                         <ul role="list" class="mt-4 divide-y divide-slate-900/10 border-y border-slate-900/10 dark:divide-slate-800 dark:border-slate-800">
                             <?php foreach ($php9 as [$change, $since]): ?>
                                 <li class="flex flex-col gap-1 py-4 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6">
-                                    <span class="text-base/7 text-slate-800 dark:text-slate-200"><?= $change ?></span>
+                                    <span class="text-base/7 text-slate-900 dark:text-slate-200"><?= $change ?></span>
                                     <span class="shrink-0 font-mono text-xs whitespace-nowrap text-slate-400 dark:text-slate-500"><?= $since ?></span>
                                 </li>
                             <?php endforeach ?>
@@ -270,7 +270,7 @@ require __DIR__ . '/includes/header.php';
 
                     <div class="lg:col-span-2">
                         <h3 class="text-sm/6 font-semibold text-slate-500 dark:text-slate-400">Fix it today</h3>
-                        <p class="mt-4 text-base/7 text-slate-800 dark:text-slate-200">Report every error with <code>E_ALL</code> in development and fix deprecations as they appear. PHPStan, Psalm and Rector do most of the work.</p>
+                        <p class="mt-4 text-base/7 text-slate-900 dark:text-slate-200">Report every error with <code>E_ALL</code> in development and fix deprecations as they appear. PHPStan, Psalm and Rector do most of the work.</p>
                         <div class="mt-6 grid gap-4 text-sm [&_pre]:leading-relaxed dark:[&_.js-code-block]:border-slate-800 dark:[&_.js-code-block]:bg-slate-900">
                             <?php code_block($deprecatedCode, 'Deprecated in PHP 8', lineNumbers: true) ?>
                             <?php code_block($readyCode, 'Ready for PHP 9', lineNumbers: true) ?>
