@@ -434,7 +434,7 @@ require __DIR__ . '/includes/header.php';
         <!-- call to action -->
         <section class="relative isolate z-10 overflow-hidden py-20 lg:py-28">
             <!-- the same diamond grid as the Road to PHP 9 panel, fading out from the bottom centre (the laravel.com "What will you ship?" pattern) -->
-            <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-bottom text-slate-900/10 dark:text-slate-800">
+            <svg aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 size-full mask-radial-[70%_100%] mask-radial-from-25% mask-radial-at-bottom text-slate-900/10 dark:text-white/15">
                 <defs>
                     <pattern id="cta-grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="scale(1 .6) rotate(45)"><path d="M40 0H0v40" fill="none" stroke="currentColor"></path></pattern>
                 </defs>
