@@ -169,7 +169,7 @@ require __DIR__ . '/includes/header.php';
                 <rect width="100%" height="100%" fill="url(#hero-grid)"></rect>
             </svg>
 
-            <div class="mx-auto max-w-4xl bg-radial from-white to-transparent to-65% px-4 text-center sm:px-6 lg:px-8 dark:from-slate-950">
+            <div class="mx-auto max-w-4xl bg-radial from-white to-transparent to-65% px-4 text-center sm:px-6 lg:px-8 dark:from-slate-900">
                 <h1 class="mb-5 text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl">Less Boilerplate. Safer Defaults.</h1>
                 <p class="mx-auto mb-8 max-w-2xl leading-relaxed text-zinc-500 *:text-zinc-900 lg:mb-10 dark:text-slate-300 dark:*:text-white"><strong>PHP 8.6 helps you write less code and ship safer apps.</strong> Turn function calls into closures with <strong>partial function application</strong>, drop constructor boilerplate with <strong>readonly property defaults</strong>, and replace hand-written helpers with <strong>clamp()</strong> and the new <strong>Duration</strong> class. Sessions now use <strong>secure defaults</strong> out of the box.</p>
 
@@ -218,7 +218,7 @@ require __DIR__ . '/includes/header.php';
             <!-- bento grid: the outer corners of the grid are rounder -->
             <div class="mx-auto mt-12 grid max-w-7xl gap-4 px-4 lg:mt-16 lg:grid-cols-3 lg:grid-rows-2 lg:px-8">
                 <?php foreach ($features as $feature): ?>
-                    <div class="group relative flex flex-col rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-900 dark:ring-slate-800 p-8 transition-colors hover:bg-zinc-50 max-lg:first:rounded-t-4xl max-lg:last:rounded-b-4xl sm:p-10 lg:first:rounded-tl-4xl lg:last:rounded-br-4xl lg:nth-3:rounded-tr-4xl lg:nth-4:rounded-bl-4xl dark:hover:bg-slate-800/60">
+                    <div class="group relative flex flex-col rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-800 dark:ring-slate-800 p-8 transition-colors hover:bg-zinc-50 max-lg:first:rounded-t-4xl max-lg:last:rounded-b-4xl sm:p-10 lg:first:rounded-tl-4xl lg:last:rounded-br-4xl lg:nth-3:rounded-tr-4xl lg:nth-4:rounded-bl-4xl dark:hover:bg-slate-800/60">
                         <div class="flex items-start justify-between">
                             <div class="flex size-11 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500 ring-1 ring-brand-500/20 ring-inset dark:bg-brand-400/10 dark:text-brand-400 dark:ring-brand-400/20">
                                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="size-6"><?= $feature['icon'] ?></svg>
@@ -237,7 +237,7 @@ require __DIR__ . '/includes/header.php';
         </section>
 
         <!-- road to php 9: a dark editorial band. Hairlines and type carry it; the accent marks only the current release. -->
-        <section id="road-to-php-9" class="relative z-10 scroll-mt-20 border-t border-zinc-900/10 bg-white py-20 text-zinc-900 lg:py-28 dark:border-slate-800 dark:bg-slate-950 dark:text-white [&_:not(pre)>code]:rounded-md [&_:not(pre)>code]:bg-zinc-200/50 [&_:not(pre)>code]:px-1 [&_:not(pre)>code]:py-0.5 [&_:not(pre)>code]:text-[0.875em] dark:[&_:not(pre)>code]:bg-slate-800">
+        <section id="road-to-php-9" class="relative z-10 scroll-mt-20 border-t border-zinc-900/10 bg-white py-20 text-zinc-900 lg:py-28 dark:border-slate-800 dark:bg-slate-900 dark:text-white [&_:not(pre)>code]:rounded-md [&_:not(pre)>code]:bg-zinc-200/50 [&_:not(pre)>code]:px-1 [&_:not(pre)>code]:py-0.5 [&_:not(pre)>code]:text-[0.875em] dark:[&_:not(pre)>code]:bg-slate-800">
             <div class="mx-auto max-w-7xl px-4 lg:px-8">
                 <div class="max-w-3xl">
                     <p class="text-sm/6 font-semibold text-brand-500 dark:text-brand-400">Road to PHP 9</p>
@@ -271,7 +271,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="lg:col-span-2">
                         <h3 class="text-sm/6 font-semibold text-zinc-500 dark:text-slate-400">Fix it today</h3>
                         <p class="mt-4 text-base/7 text-zinc-800 dark:text-slate-200">Report every error with <code>E_ALL</code> in development and fix deprecations as they appear. PHPStan, Psalm and Rector do most of the work.</p>
-                        <div class="mt-6 grid gap-4 text-sm [&_pre]:leading-relaxed dark:[&_.js-code-block]:border-slate-800 dark:[&_.js-code-block]:bg-slate-900">
+                        <div class="mt-6 grid gap-4 text-sm [&_pre]:leading-relaxed dark:[&_.js-code-block]:border-slate-800 dark:[&_.js-code-block]:bg-slate-800">
                             <?php code_block($deprecatedCode, 'Deprecated in PHP 8', lineNumbers: true) ?>
                             <?php code_block($readyCode, 'Ready for PHP 9', lineNumbers: true) ?>
                         </div>
@@ -282,7 +282,7 @@ require __DIR__ . '/includes/header.php';
         </section>
 
         <!-- ecosystem -->
-        <section id="ecosystem" class="relative isolate z-10 scroll-mt-20 border-y border-zinc-900/10 bg-zinc-50 py-20 lg:py-28 dark:border-slate-800 dark:bg-slate-900/30">
+        <section id="ecosystem" class="relative isolate z-10 scroll-mt-20 border-y border-zinc-900/10 bg-zinc-50 py-20 lg:py-28 dark:border-slate-800 dark:bg-slate-800/30">
             <div class="mx-auto max-w-3xl px-4 text-center lg:px-8">
                 <p class="text-sm/6 font-semibold text-brand-500 dark:text-brand-400">Ecosystem</p>
                 <h2 class="mt-2 text-3xl font-bold tracking-tight text-balance lg:text-4xl">Build on a Thriving Ecosystem</h2>
@@ -291,7 +291,7 @@ require __DIR__ . '/includes/header.php';
 
             <ul role="list" class="mx-auto mt-12 grid max-w-7xl gap-4 px-4 sm:grid-cols-2 lg:mt-16 lg:px-8 xl:grid-cols-4">
                 <?php foreach ($ecosystem as $slug => [$name, $kind, $url, $description]): ?>
-                    <li class="relative rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-900 dark:ring-slate-800 p-6 transition-colors hover:bg-zinc-50 dark:hover:bg-slate-800/60">
+                    <li class="relative rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-800 dark:ring-slate-800 p-6 transition-colors hover:bg-zinc-50 dark:hover:bg-slate-800/60">
                         <?php [$color, $path] = $icons[$slug]; [$r, $g, $b] = sscanf($color, '#%02x%02x%02x'); ?>
                         <!-- official brand colour; near-black marks switch to white in dark mode -->
                         <svg viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" aria-hidden="true" style="--brand: <?= $color ?>" class="size-8 text-(--brand)<?= (0.2126 * $r + 0.7152 * $g + 0.0722 * $b) < 40 ? ' dark:text-white' : '' ?>"><path d="<?= $path ?>" /></svg>
@@ -311,7 +311,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <ul role="list" class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                     <?php foreach ($tools as $name => [$url, $description]): ?>
-                        <li class="relative rounded-2xl bg-white p-5 shadow-2xs ring-1 ring-zinc-900/8 transition-colors hover:bg-zinc-50 dark:bg-slate-900 dark:ring-slate-800 dark:hover:bg-slate-800/60">
+                        <li class="relative rounded-2xl bg-white p-5 shadow-2xs ring-1 ring-zinc-900/8 transition-colors hover:bg-zinc-50 dark:bg-slate-800 dark:ring-slate-800 dark:hover:bg-slate-800/60">
                             <a href="<?= $url ?>" class="font-semibold text-zinc-950 dark:text-white"><span class="absolute inset-0"></span><?= $name ?></a>
                             <p class="mt-1 text-sm/6 text-zinc-600 dark:text-slate-400"><?= $description ?></p>
                         </li>
@@ -369,7 +369,7 @@ require __DIR__ . '/includes/header.php';
         </section>
 
         <!-- the php foundation -->
-        <section id="foundation" class="relative isolate z-10 scroll-mt-20 border-y border-zinc-900/10 bg-zinc-50 py-20 lg:py-28 dark:border-slate-800 dark:bg-slate-900/30">
+        <section id="foundation" class="relative isolate z-10 scroll-mt-20 border-y border-zinc-900/10 bg-zinc-50 py-20 lg:py-28 dark:border-slate-800 dark:bg-slate-800/30">
             <div class="mx-auto grid max-w-7xl gap-12 px-4 lg:grid-cols-2 lg:gap-16 lg:px-8">
                 <div>
                     <p class="text-sm/6 font-semibold text-brand-500 dark:text-brand-400">The PHP Foundation</p>
@@ -408,7 +408,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
 
-                <div class="rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-900 dark:ring-slate-800 p-6 md:p-10">
+                <div class="rounded-2xl bg-white shadow-2xs ring-1 ring-zinc-900/8 dark:bg-slate-800 dark:ring-slate-800 p-6 md:p-10">
                     <h3 class="text-sm/6 font-semibold text-zinc-900 dark:text-white">Thank you to our sponsors</h3>
                     <div class="mt-8 space-y-8">
                         <?php foreach ($sponsors as $tier => [$style, $names]): ?>
@@ -422,7 +422,7 @@ require __DIR__ . '/includes/header.php';
                             </div>
                         <?php endforeach ?>
                     </div>
-                    <div class="mt-10 rounded-xl bg-zinc-50 p-6 ring-1 ring-zinc-900/8 dark:bg-slate-900 dark:ring-slate-800">
+                    <div class="mt-10 rounded-xl bg-zinc-50 p-6 ring-1 ring-zinc-900/8 dark:bg-slate-800 dark:ring-slate-800">
                         <p class="font-semibold text-zinc-900 dark:text-white">Is your company built on PHP?</p>
                         <p class="mt-1 text-sm/6 text-zinc-600 dark:text-slate-400">Company sponsorships start at $1,000 a month and put your logo in front of the PHP community.</p>
                         <a href="https://thephp.foundation/sponsor/" class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-500 underline-offset-2 hover:underline dark:text-brand-400">See sponsorship tiers <span aria-hidden="true">→</span></a>
